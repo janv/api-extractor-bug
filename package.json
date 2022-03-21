@@ -1,0 +1,15 @@
+{
+  "name": "extractor-bug",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@microsoft/api-extractor": "^7.19.5",
+    "typescript": "^4.6.2"
+  },
+  "workspaces": [
+    "project_a",
+    "project_b"
+  ]
+}

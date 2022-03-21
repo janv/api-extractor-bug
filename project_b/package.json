@@ -1,0 +1,11 @@
+{
+  "name": "project_b",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "api": "tsc --emitDeclarationOnly --declaration --declarationDir ./api-extractor/types && api-extractor run",
+    "api:update": "tsc --emitDeclarationOnly --declaration --declarationDir ./api-extractor/types && api-extractor run --local"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "downlevelIteration": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "importsNotUsedAsValues": "preserve",
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "lib": ["es2018", "dom"],
+    "module": "ES2020",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "noFallthroughCasesInSwitch": true,
+    
+    "strict": true,
+    "strictFunctionTypes": false,
+
+    "target": "ES2017",
+    "useDefineForClassFields": true,
+  }
+}
