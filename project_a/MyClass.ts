@@ -1,5 +1,5 @@
 /** @public */
-export default class MyClass {
+export default class PublicClassFromA {
   hello() {
     console.log('Hello World');
   }

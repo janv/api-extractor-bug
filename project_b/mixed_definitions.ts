@@ -1,11 +1,11 @@
-import helper from "./some_internal_helper";
+import helperUsedInternallyReturningFoo from "./some_internal_helper";
 
 /** @public */
-export default class PublicClass {
+export default class PublicClassFromB {
 
   /** @internal */
-  someFunction() {
-    return helper()
+  internalFunctionB() {
+    return helperUsedInternallyReturningFoo()
   }
 
 }

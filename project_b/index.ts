@@ -1,4 +1,4 @@
-import MyClass from 'project_a/MyClass';
-import PublicClass from './mixed_definitions'
+import PublicClassFromA from 'project_a/MyClass';
+import PublicClassFromB from './mixed_definitions'
 
-export { MyClass, PublicClass };
+export { PublicClassFromA, PublicClassFromB };

@@ -5,7 +5,7 @@
 ```ts
 
 // @public (undocumented)
-export class MyClass {
+export class PublicClassFromA {
     // (undocumented)
     hello(): void;
     // Warning: (ae-forgotten-export) The symbol "SomeEnum" needs to be exported by the entry point index.d.ts
@@ -15,11 +15,11 @@ export class MyClass {
 }
 
 // @public (undocumented)
-export class PublicClass {
+export class PublicClassFromB {
     // Warning: (ae-forgotten-export) The symbol "Foo" needs to be exported by the entry point index.d.ts
     //
     // @internal (undocumented)
-    someFunction(): Foo;
+    internalFunctionB(): Foo;
 }
 
 // (No @packageDocumentation comment for this package)

@@ -16,7 +16,7 @@
   "dtsRollup": {
     "enabled": true,
     "untrimmedFilePath": "",
-    "publicTrimmedFilePath": "<projectFolder>/index.d.ts",
+    "publicTrimmedFilePath": "<projectFolder>/trimmed.d.ts",
     "omitTrimmingComments": true
   },
 
