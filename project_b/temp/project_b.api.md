@@ -7,9 +7,11 @@
 // @public (undocumented)
 export class MyClass {
     // (undocumented)
-    hello() {
-        console.log('Hello World');
-    }
+    hello(): void;
+    // Warning: (ae-forgotten-export) The symbol "SomeEnum" needs to be exported by the entry point index.d.ts
+    //
+    // @internal (undocumented)
+    internalFunction(): SomeEnum;
 }
 
 // (No @packageDocumentation comment for this package)
