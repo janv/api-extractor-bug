@@ -1,4 +1,3 @@
-import helperUsedInternallyReturningFoo from "./some_internal_helper";
 
 /** @public */
 export default class PublicClassFromB {
@@ -10,6 +9,11 @@ export default class PublicClassFromB {
 
 }
 
-export interface Foo {
+function helperUsedInternallyReturningFoo() {
+  const foo:Foo = {bar: 'bar'};
+  return foo;
+}
+
+interface Foo {
   bar: string;
 }
