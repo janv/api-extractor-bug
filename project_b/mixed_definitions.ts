@@ -5,7 +5,7 @@ export default class PublicClass {
 
   /** @internal */
   someFunction() {
-    helper()
+    return helper()
   }
 
 }

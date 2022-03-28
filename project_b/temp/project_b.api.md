@@ -14,6 +14,14 @@ export class MyClass {
     internalFunction(): SomeEnum;
 }
 
+// @public (undocumented)
+export class PublicClass {
+    // Warning: (ae-forgotten-export) The symbol "Foo" needs to be exported by the entry point index.d.ts
+    //
+    // @internal (undocumented)
+    someFunction(): Foo;
+}
+
 // (No @packageDocumentation comment for this package)
 
 ```

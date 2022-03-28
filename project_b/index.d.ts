@@ -1,6 +1,15 @@
+declare interface Foo {
+    bar: string;
+}
+
 /** @public */
 export declare class MyClass {
     hello(): void;
+
+}
+
+/** @public */
+export declare class PublicClass {
 
 }
 
